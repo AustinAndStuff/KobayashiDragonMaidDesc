@@ -8,6 +8,7 @@
 </head>
 <body>
    <div id="mySidenav"  class="sidenav">
+        <a href="Index.html" class="NonSelected">Main menu</a>
      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
      <a href="Tohru.html" class="NonSelected">View Tohru</a>
         <a href="Elma.html" class="NonSelected">View elma</a>
@@ -18,9 +19,16 @@
         <a href="Fafnir.html" class="NonSelected">View Fafnir</a>
          <a href="https://www.youtube.com/watch?v=2rruSn-Z6Yk&list=RD2rruSn-Z6Yk&start_radio=1"class="NonSelected">Listen to music</a>
     </div>
-    <span class = "Button" onclick="openNav()">View other character</span>
+    
     <div id="main">
-        <h1 class="Title">This is kanna... the children of the group</h1>
+        <span class = "Button" onclick="openNav()">View other character</span>
+        <div class="FormChanger">
+            <div id="FormIndicator" class="FormIndicator"> </div>
+             <span class = "HumanForm" onclick="changeForm(false)">Human form</span>
+              <span class = "DragonForm" onclick="changeForm(true)">Dragon form</span>
+        </div>
+ <h1 class="Title">This is a character that is made to be adorable</h1>
+        <li> Name: Kanna</li>
         <li> Species: Dragon</li>
         <li>Faction: None</li>
         <li>Age: around 9 (Manga confirmed), Actual age: hundread of years</li>
